@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: coolvetica;
+    src: url('fontes/coolvetica-condensed.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+#h0 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+header {
+    padding: 20px 20px 60px 20px;
+    background-color: green;
+    position: relative;
+    height: 150px;
+    outline: 20px solid green;
+}
+
+nav {
+    position: absolute;
+    bottom: 10px;
+    left : 20px;
+}
+
+
+
+#aside1 {
+    color: white;
+    text-align: center;
+}
+
+.nav1 {
+    color: white;
+    bottom: 0;
+    margin-right: 15px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav1:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 3px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#h01 {
+    font-family: idroid;
+    padding-left: 12px;
+    font-size: 38px;
+    color: green;
+}
+
+.pg {
+    font-size: 18px;
+}
+
+.h02{
+    font-family: idroid;
+    background-color: #84e1ac79;
+    color: green;
+}
+
+#video {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#fim {
+    background-color: white;
+    margin-top: 0;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 3px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+h3 {
+    background-color: rgba(36, 206, 36, 0.741);
+    color: white;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.fim1 {
+    margin-top: 0;
+    background-color: #84E1AD;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.mar {
+    bottom: 10px;
+    left: 20px;
+}
+
+footer {
+    background-color: green;
+}
+
+#foter {
+    text-align: center;
+}

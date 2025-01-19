@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(175, 175, 32);
+        }
+
+        .especial {
+            background-color: black;
+            color: red;
+        }
+
+        .especial::before {
+            content: '→ ';
+            color: red;
+        }
+
+        .especial::after {
+            content: " ←";
+            color: red
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/netto_ivald3/" target="_blank" rel="external">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@FirezardBR" target="_blank" rel="external" class="especial">Youtube</a></li>
+        <li><a href="https://www.facebook.com/netto.dossantos.5/" target="_blank" rel="external">Facebook</a></li>
+    </ul>
+</body>
+</html>
