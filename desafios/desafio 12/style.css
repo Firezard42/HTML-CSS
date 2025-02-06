@@ -11,9 +11,7 @@
     padding: 0px; 
 }
 
-body {
 
-}
 
 header {
     background-color: black;
@@ -53,12 +51,17 @@ article p {
     margin: 0;
 }
 
-#joana section {
-    margin-top: 60px;
-    margin-left: 30px;
+#joana div {
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto com transparência */
+    max-width: 950px;
+    margin: 20px; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
 }
 
 article section {
    margin-top: 60px;
    margin-left: 30px;
+   margin-bottom: 60px;
 }
