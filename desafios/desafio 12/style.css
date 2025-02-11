@@ -65,3 +65,21 @@ article section {
    margin-left: 30px;
    margin-bottom: 60px;
 }
+
+#folhas {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+}
+
+#folhas div {
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.397); /* Fundo preto com transparência */
+    max-width: 950px;
+    margin: 20px; /* Centraliza horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+}
