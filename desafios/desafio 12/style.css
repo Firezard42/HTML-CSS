@@ -38,6 +38,7 @@ header p {
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
+    font-weight: bolder;
 }
 
 header > p > a {
