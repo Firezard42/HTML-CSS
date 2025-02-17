@@ -69,6 +69,9 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.363);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); /*pra fazer uma sombra interna */
     
 }
 
@@ -76,7 +79,18 @@ section.imagem > p {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     display: inline-block; /* a caixa se adpta ao tamanho do contéudo */
+    text-shadow: 1px 1px 0 black;
 }
+
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');
+}
+
 
 footer {
     background-color: black;
