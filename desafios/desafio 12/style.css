@@ -11,26 +11,24 @@
     padding: 0px; 
 }
 
+html,body {
+    min-height: 100vh;
+}
 
 
 header {
     background-color: black;
-    padding: 70px;
-    margin: 0; }
-
-header h1 {
     color: white;
     text-align: center;
-    font-family: "Passion One", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 150px;
-    font-weight: bolder;
+ }
 
-}
-
-header > h1 > span {
-    font-size: 200px;
+ header h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header p {
@@ -39,6 +37,7 @@ header p {
     font-size: 20px;
     margin-top: 10px;
     font-weight: bolder;
+    padding-bottom: 50px;
 }
 
 header > p > a {
